@@ -1,0 +1,10 @@
+apt update && apt upgrade -y
+termux-setup-storage
+pkg install python -y
+pkg install python2 -y
+pkg install git -y
+git clone https://github.com/abhinavkavuri/PhoneInfoga
+cd PhoneInfoga
+mv config.example.py config.py
+python3 -m pip install -r requirements.txt
+chmod +x *
