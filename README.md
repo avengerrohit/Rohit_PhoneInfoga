@@ -20,6 +20,8 @@ chmod +x *
 
 sh Rohit_PhoneInfoga
 
+cd PhoneInfoga
+
 python3 phoneinfoga.py -n +(phone number with country code)
 
 Now you are good to go...
