@@ -8,4 +8,4 @@ cd PhoneInfoga
 mv config.example.py config.py
 python3 -m pip install -r requirements.txt
 chmod +x *
-echo This script is written by Rohit Pathak. You can get Phone number's information by python3 phoneinfoga.py -n +(phone number with country code)
+
